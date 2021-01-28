@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "a simple example of page objects use with protractor with ES classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor.config.js --disableChecks"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^87.0.5",
+    "fs-extra": "^8.1.0",
+    "mocha": "^7.1.1",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "winston": "^3.3.3",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
